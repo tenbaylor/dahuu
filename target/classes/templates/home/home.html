@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:static="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>世北客科技 网站开发 微信小程序开发 APP开发</title>
+    <meta name="keywords" content="网站开发,微信小程序开发,app开发">
+    <meta name="description" content="徐州世北客网络科技有限公司,专注网站开发、微信小程序开发、APP开发.拥有百人技术研发团队,为您项目实时保驾护航.">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/bootstrap.min.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/main.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/slicknav.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/responsive.css}">
+    <link rel="stylesheet" media="screen" static:href="@{/static/css/font-awesome.min.css}">
+    <link rel="stylesheet" media="screen" static:href="@{/static/css/simple-line-icons.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/owl.carousel.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/owl.theme.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/animate.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/normalize.css}">
+    <link rel="stylesheet" type="text/css" static:href="@{/static/css/green.css}" media="screen">
+    <!--[if lt IE 9]>
+    <script src="/assets/libs/html5shiv.js">
+    </script>
+    <script src="/assets/libs/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+<body>
+<div class="piaohong"></div>
+<!-- Header area wrapper starts -->
+<header id="header-wrap">
+
+    <header id="header-wrap">
+        <nav class="navbar navbar-expand-md fixed-top scrolling-navbar nav-bg">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="slicknav_menu">
+                        <liner aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"
+                               style="outline: none;"><span class="slicknav_menutxt"></span><span
+                                class="slicknav_icon slicknav_no-text"><span class="slicknav_icon-bar"></span><span
+                                class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></liner>
+                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <li>
+                                <a class="active" href="http://www.lanru.cn/" role="menuitem" tabindex="-1">首页</a>
+                            </li>
+                            <li>
+                                <a href="http://www.lanru.cn/goods/" role="menuitem" tabindex="-1">产品中心</a>
+                            </li>
+                            <li>
+                                <a href="http://www.lanru.cn/custom/" role="menuitem" tabindex="-1">定制开发</a>
+                            </li>
+                            <li>
+                                <a href="http://www.lanru.cn/about/" role="menuitem" tabindex="-1">关于我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="navbar-brand" href="http://www.lanru.cn/">
+                        <img static:href="@{/static/images/logo.gif}" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                            aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="http://www.lanru.cn/">首页 <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.lanru.cn/goods/">产品中心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.lanru.cn/custom/">定制开发</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.lanru.cn/about/">关于我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tel:18505295857">
+                                <i class="icon-call-in icons"></i>18505295857</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="wpb-mobile-menu">
+                    <li>
+                        <a class="active" href="http://www.lanru.cn/">首页</a>
+                    </li>
+                    <li>
+                        <a href="http://www.lanru.cn/goods/">产品中心</a>
+                    </li>
+                    <li>
+                        <a href="http://www.lanru.cn/custom/">定制开发</a>
+                    </li>
+                    <li>
+                        <a href="http://www.lanru.cn/about/">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Carousel Section -->
+    <div id="carousel-area">
+        <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img static:href="@{/static/js/hindex.png}" class="carousel-item-img" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header-wrap Section End -->
+
+<!-- Service Block-1 Section -->
+<section id="service-block-main" class="section">
+    <!-- Container Starts -->
+    <div class="container">
+        <h1 class="section-title wow fadeIn animated animated" data-wow-delay=".2s"
+            style="visibility: visible;-webkit-animation-delay: .2s; -moz-animation-delay: .2s; animation-delay: .2s;">
+            蓝儒能做什么
+        </h1>
+        <p class="section-subcontent">我们为您提供互联网应用的解决之道</p>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <!-- Service-Block-1 Item Starts -->
+                <div class="service-item wow fadeInUpQuick animated animated" data-wow-delay=".3s"
+                     style="visibility: visible;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-codepen pulse-shrink">
+                        </i>
+                    </div>
+                    <h2>
+                        高端品牌定制
+                    </h2>
+                    <p>
+                        企业高端定制设计，为企业“量身定做”产品
+                    </p>
+                </div>
+                <!-- Service-Block-1 Item Ends -->
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!-- Service-Block-1 Item Starts -->
+                <div class="service-item wow fadeInUpQuick animated animated" data-wow-delay=".6s"
+                     style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-html5 pulse-shrink">
+                        </i>
+                    </div>
+                    <h2>
+                        HTML5开发
+                    </h2>
+                    <p>
+                        开发手机网站 / 电脑网站，解决多终端障碍
+                    </p>
+                </div>
+                <!-- Service-Block-1 Item Ends -->
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!-- Service-Block-1 Item Starts -->
+                <div class="service-item wow fadeInUpQuick animated animated" data-wow-delay="0.9s"
+                     style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-apple pulse-shrink">
+                        </i>
+                    </div>
+                    <h2>
+                        APP应用程序
+                    </h2>
+                    <p>
+                        基于iOS/Android应用开发，掌控智能终端
+                    </p>
+                </div>
+                <!-- Service-Block-1 Item Ends -->
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!-- Service-Block-1 Item Starts -->
+                <div class="service-item  wow fadeInUpQuick animated animated" data-wow-delay="1.2s"
+                     style="visibility: visible;-webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-weixin pulse-shrink">
+                        </i>
+                    </div>
+                    <h2>
+                        微信公众号/小程序
+                    </h2>
+                    <p>
+                        依托微信八亿活跃用户，拓展业务范围
+                    </p>
+                </div>
+            </div><!-- Service-Block-1 Item Ends -->
+        </div>
+    </div><!-- Container Ends -->
+</section><!-- Service Main Section Ends -->
+
+
+<!-- Portfolio Section -->
+<section id="portfolios" class="section">
+    <!-- Container Starts -->
+    <div class="container">
+        <h1 class="section-title wow fadeInUpQuick" data-wow-delay=".3s"
+            style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">
+            项目案例
+        </h1>
+        <p class="section-subcontent wow fadeInUpQuick" data-wow-delay=".4s"
+           style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
+            别人说故事，我们用作品说话，好的产品在于转化.</p>
+        <!-- Portfolio Recent Projects -->
+        <div id="portfolio" class="row">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning" style="display: inline-block;"
+                 data-bound="">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img static:href="@{/static/images/a8dfc2e0e9bb8baa82441f9164bc77c9.png}"
+                             alt="模仿《剧情吧》剧情介绍网PC版">
+                    </div>
+                    <div class="portfoli-content">
+                        <div class="sup-desc-wrap">
+                            <div class="sup-desc-inner">
+                                <div class="sup-link">
+                                    <a class="left-link" href="http://www.lanru.cn/goods/2.html"><i
+                                            class="icon-link"></i></a>
+                                </div>
+                                <div class="sup-meta-wrap">
+                                    <a class="sup-title" href="http://www.lanru.cn/goods/2.html"><h4>
+                                        模仿《剧情吧》剧情介绍网PC版</h4></a>
+                                    <p class="sup-description">剧情吧,最新电视剧分集剧情介绍的剧情介绍网站.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning" style="display: inline-block;"
+                 data-bound="">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img static:href="@{/static/images/d02b43c91351aa0bc50bfa9776be7497.png}" alt="小程序 人生测算类源码">
+                    </div>
+                    <div class="portfoli-content">
+                        <div class="sup-desc-wrap">
+                            <div class="sup-desc-inner">
+                                <div class="sup-link">
+                                    <a class="left-link" href="http://www.lanru.cn/goods/1.html"><i
+                                            class="icon-link"></i></a>
+                                </div>
+                                <div class="sup-meta-wrap">
+                                    <a class="sup-title" href="http://www.lanru.cn/goods/1.html"><h4>小程序 人生测算类源码</h4>
+                                    </a>
+                                    <p class="sup-description">八字算命里暗藏的桃花能量,为你带来的是爱情桃花运,或是增添孤克？揭开八字算命里你所不知的桃花运测试玄机！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-12">
+            <!-- End Portfolio Recent Projects -->
+            <div class="text-center loadmore-button wow fadeInUpQuick" data-wow-delay=".6s"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
+                <a href="http://www.lanru.cn/goods/" class="btn btn-common"><i class="fa fa-arrows"></i> 查看更多</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Ends -->
+</section>
+<!-- Portfolio Section Ends -->
+
+<!-- Featured Section Starts -->
+<section id="featured" class="section">
+    <!-- Container Starts -->
+    <div class="container">
+        <h1 class="section-title wow fadeInUpQuick"
+            style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;">
+            我们的服务
+        </h1>
+        <p class="section-subcontent">我们是您决胜于互联网的临门一脚</p>
+        <div class="row">
+            <!-- Start Service Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay=".2s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .2s; -moz-animation-delay: .2s; animation-delay: .2s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="icon-layers icons">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            量身定制
+                        </h4>
+                        <p>
+                            多样化的解决方案。依据客户的行业特色、需求和预算制定最适合的解决方案。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+            <!-- Start featured Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay=".4s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="icon-diamond icons">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            技术团队
+                        </h4>
+                        <p>
+                            十五年的从业经验，深刻了解不同客户需求，无论您属于哪个行业，我们都准备好最完善的规划。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+            <!-- Start featured Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay=".6s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="fa fa-heartbeat">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            售后服务
+                        </h4>
+                        <p>
+                            专业的服务态度与素质，及时的回复响应，完美解决客户的售后服务.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+            <!-- Start featured Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay=".8s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="fa fa-database">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            搭建部署
+                        </h4>
+                        <p>
+                            协助客户部署项目至生产环境，解决小白用户的前期困难.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+            <!-- Start featured Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay="1s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 1s; -moz-animation-delay: 1s; animation-delay: 1s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="fa fa-universal-access">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            安全测评
+                        </h4>
+                        <p>
+                            帮助客户加固服务器环境，处理代码安全漏洞，及时修复产品不足.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+            <!-- Start featured Icon 1 -->
+            <div class="col-md-4 col-sm-6 wow fadeInUpQuick" data-wow-delay="1.2s" data-animation="fadeIn"
+                 data-animation-delay="01"
+                 style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;">
+                <div class="featured-box">
+                    <div class="featured-icon">
+                        <i class="fa fa-cogs">
+                        </i>
+                    </div>
+                    <div class="featured-content">
+                        <h4>
+                            托管维护
+                        </h4>
+                        <p>
+                            完全的服务器托管服务，我们保障您的项目运行，让运营无忧
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End featured Icon 1 -->
+        </div>
+    </div>
+    <!-- Container Ends -->
+</section>
+<!-- Featured Section Ends -->
+
+
+<!-- Cool Facts Section -->
+<section id="cool-facts" class="section">
+    <!-- Container Starts -->
+    <div class="container">
+        <h1 class="section-title wow fadeInUpQuick"
+            style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;">
+            服务流程
+        </h1>
+        <p class="section-subcontent"> 透明的服务流程，科学化的开发流程，保证项目的成功实施，杜绝需求和成果不符的情况出现。</p>
+        <!-- Row Starts -->
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <!-- Fact Block Starts -->
+                <div class="fact-block clearfix wow fadeInUp" data-wow-delay="0.3s"
+                     style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                    <div class="facts-item">
+                        <i class="fa fa-quora"></i>
+                        <div class="fact-count">
+                            <h4>收集需求</h4>
+                        </div>
+                    </div>
+                </div><!-- Fact Block Ends -->
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <!-- Fact Block Starts -->
+                <div class="fact-block clearfix wow fadeInUp" data-wow-delay="0.6s"
+                     style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+                    <div class="facts-item">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <div class="fact-count">
+                            <h4>签定合同</h4>
+                        </div>
+                    </div>
+                </div><!-- Fact Block Ends -->
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <!-- Fact Block Starts -->
+                <div class="fact-block clearfix wow fadeInUp" data-wow-delay="0.9s"
+                     style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                    <div class="facts-item">
+                        <i class="fa fa-openid"></i>
+                        <div class="fact-count">
+                            <h4>制作开发</h4>
+                        </div>
+                    </div>
+                </div><!-- Fact Block Ends -->
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <!-- Fact Block Starts -->
+                <div class="fact-block clearfix wow fadeInUp" data-wow-delay="1.2s"
+                     style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;">
+                    <div class="facts-item">
+                        <i class="fa fa-heartbeat"></i>
+                        <div class="fact-count">
+                            <h4>验收售后</h4>
+                        </div>
+                    </div>
+                </div><!-- Fact Block Ends -->
+            </div>
+        </div><!-- Row Ends -->
+    </div><!-- Container Ends -->
+</section>
+<!-- Cool Facts Section End -->
+
+<!-- Clients Section -->
+<section id="clients" class="section">
+    <!-- Container Ends -->
+    <div class="container">
+        <h1 class="section-title wow fadeInUpQuick" data-wow-delay=".5s"
+            style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">
+            典型客户
+        </h1>
+        <p class="section-subcontent">蓝儒网络珍视每次合作、与众多客户互促共生，我们有经验/有态度</p>
+        <div class="wow fadeInUpQuick" data-wow-delay="0.3s"
+             style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+            <!-- Row and Scroller Wrapper Starts -->
+            <div class="row owl-carousel owl-theme" id="image-carousel" style="opacity: 1; display: block;">
+                <div class="owl-wrapper-outer">
+                    <div class="owl-wrapper"
+                         style="width: 3336px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/1.png}" alt="">
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/2.png}" alt="">
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/3.png}" alt="">
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/4.png}" alt="">
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/5.png}" alt="">
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 278px;">
+                            <div class="client-item-wrapper">
+                                <img static:href="@{/static/images/7.png}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="owl-controls clickable">
+                    <div class="owl-pagination">
+                        <div class="owl-page active"><span class=""></span></div>
+                        <div class="owl-page"><span class=""></span></div>
+                    </div>
+                </div>
+            </div><!-- Row and Scroller Wrapper Starts -->
+        </div>
+    </div><!-- Container Ends -->
+</section>
+<!-- Client Section End -->
+
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <!-- Row Starts -->
+        <div class="row section footer">
+            <span class="tweet-date">友情链接：</span>
+            <a href="http://www.a5.cn/" target="_blank">A5外包</a>
+            <a href="http://www.lanru.cn/" target="_blank">蓝儒网络</a>
+            <a href="http://www.qihuiweb.com/" target="_blank">蕲汇网络</a>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <p class="copyright-text">
+                        © 2021 江苏蓝儒网络科技有限公司. All right reserved.
+                    </p>
+                </div>
+                <div class="col-md-6  col-sm-6">
+                    <ul class="nav nav-inline  justify-content-end ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="http://www.lanru.cn/about/">联系我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link active" rel="nofollow" href="https://beian.miit.gov.cn/">苏ICP备17024799-1</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End-->
+
+<a href="http://www.lanru.cn/#" class="back-to-top">
+    <i class="fa fa-angle-up">
+    </i>
+</a>
+
+<script static:src="@{/static/js/jquery-min.js}"></script>
+<script static:src="@{/static/js/popper.min.js}"></script>
+<script static:src="@{/static/js/bootstrap.min.js}"></script>
+
+<script static:src="@{/static/js/jquery.mixitup.js}"></script>
+<script static:src="@{/static/js/smoothscroll.js}"></script>
+<script static:src="@{/static/js/wow.js}"></script>
+<script static:src="@{/static/js/owl.carousel.js}"></script>
+<script static:src="@{/static/js/waypoints.min.js}"></script>
+<script static:src="@{/static/js/jquery.counterup.min.js}"></script>
+<script static:src="@{/static/js/jquery.slicknav.js}"></script>
+<script static:src="@{/static/js/jquery.appear.js}"></script>
+<script static:src="@{/static/js/main.js}"></script>
+
+
+</body>
+</html>

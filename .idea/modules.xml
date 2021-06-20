@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-gbs-security-console.iml" filepath="$PROJECT_DIR$/base-gbs-security-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dahuu-web.iml" filepath="$PROJECT_DIR$/dahuu-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shf-dangjian-console.iml" filepath="$PROJECT_DIR$/shf-dangjian-console.iml" />
+    </modules>
+  </component>
+</project>

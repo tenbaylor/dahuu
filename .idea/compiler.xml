@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shf-dangjian-console" />
+        <module name="dahuu-web" />
+        <module name="base-gbs-security-console" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-gbs-security-console" target="1.8" />
+      <module name="dahuu-web" target="1.8" />
+      <module name="shf-dangjian-console" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
