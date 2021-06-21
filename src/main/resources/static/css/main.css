@@ -323,7 +323,7 @@ i:hover {
     line-height: 40px;
     color: #000;
     font-family: 'Muli', sans-serif;
-    padding: 10px 0;
+    padding: 50px 0 0 0;
 }
 .section-subcontent {
     text-align: center;
@@ -594,7 +594,7 @@ i:hover {
     top: 50%;
     padding: 10px 5px;
     box-shadow: none;
-    background: url(../img/skin.png);
+    background: url(../../static/images/skin.png);
     margin-top: -35px;
     text-shadow: none;
 }
@@ -1471,7 +1471,7 @@ ul li > ul > li.active > a {
     position: relative;
 }
 #pricing {
-    background: url(../img/facts-bg.jpg);
+    background: url(../../static/images/facts-bg.jpg);
 }
 #pricing .section-title {
     color: #fff;
@@ -1557,7 +1557,7 @@ ul li > ul > li.active > a {
     width: 100%;
     height: 100%;
     background-color:rgba(0, 0, 0, 0.4);
-    background-image: url(../img/Team-Work.jpg);
+    background-image: url(../images/Team-Work.jpg);
 }
 #cool-facts .section-title {
     color: #fff;

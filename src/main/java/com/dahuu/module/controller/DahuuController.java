@@ -15,9 +15,9 @@ public class DahuuController {
     /**
      * 首页
      */
-    @RequestMapping("/home")
+    @RequestMapping("/index")
     public String index(Model model) {
-        return "home/home";
+        return "home/index";
     }
 
     @RequestMapping("/custom")
@@ -25,13 +25,13 @@ public class DahuuController {
         return "home/custom";
     }
 
-    @RequestMapping("/contactus")
-    public String contactus(Model model) {
-        return "home/contactus";
+    @RequestMapping("/about")
+    public String about(Model model) {
+        return "home/about";
     }
 
-    @RequestMapping("/products")
+    @RequestMapping("/goods")
     public String products(Model model) {
-        return "home/products";
+        return "home/goods";
     }
 }

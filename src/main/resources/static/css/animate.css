@@ -3341,8 +3341,6 @@ stretchRight
   60% {
     -webkit-transform: scaleX(0.98);
   }
-
-  }       
   80% {
     -webkit-transform: scaleX(1.01);
   }
